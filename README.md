@@ -38,9 +38,6 @@ If you didn't already have cloned this repository, `git clone` then `cd` it!
 Alternatively, you can simply download the files from the `native` directory (`native/open_program.json` and `native/open_program.py`)
 
 ```sh
-# Install the add-on
-#ln -sv $(realpath .) <your-firefox-profile>/extensions/ff-open-with@example.org
-
 # Edit the path property
 vim native/open_program.json
 
@@ -48,7 +45,7 @@ vim native/open_program.json
 chmod -v +x native/open_program.py
 
 # Install the native application manifest
-sudo ln -sv $(realpath native/open_program.json) /usr/lib/mozilla/native-messaging-hosts/open_program.json
+ln -sv $(realpath native/open_program.json) ~/.mozilla/native-messaging-hosts/open_program.json
 # OR
-ln -sv $(realpath native/open_program.json) ~/.
+sudo ln -sv $(realpath native/open_program.json) /usr/lib/mozilla/native-messaging-hosts/open_program.json
 ```
