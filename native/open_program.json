@@ -1,7 +1,7 @@
 {
     "name": "open_program",
     "description": "Open an external program",
-    "path": "/home/aireone/documents/prog/ff-open-with/native/open_program.py",
+    "path": "/path/to/ff-open-with/native/open_program.py",
     "type": "stdio",
     "allowed_extensions": [ "ff-open-with@example.org" ]
 }
