@@ -1,0 +1,25 @@
+{
+  "name": "ff-open-with",
+  "version": "0.0.5",
+  "description": "A Firefox extension to open URLs with external programs instead of new tab.",
+  "main": "manifest.json",
+  "dependencies": {},
+  "devDependencies": {
+    "web-ext": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "web-ext build",
+    "lint": "web-ext lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aire-One/ff-open-with.git"
+  },
+  "author": "Aire-One",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Aire-One/ff-open-with/issues"
+  },
+  "homepage": "https://github.com/Aire-One/ff-open-with#readme"
+}
